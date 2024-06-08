@@ -17,7 +17,8 @@ module.exports = defineConfig({
     env: {
         appUrl: "https://app-staging.securecompliance.us",
         otpGetApi: "https://core.staging.fundo.com.au/api/uat/authorization/mobile/token",
-        fileServerFolder: "cypress/downloads"
+        Path: "cypress/downloads",
+        filePath: "cypress/data/test_image.png"
     },
     e2e: {
         async setupNodeEvents(on, config) {
